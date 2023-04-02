@@ -18,3 +18,14 @@ and [Bioconductor](https://www.bioconductor.org/).
 If you have any problem with this code you can open a github issue or, in case of students of the course, you can drop me a 
 message to my university e-mail.
 
+
+| Date          | Time         | Topic                                                                                |
+| ------------- | ------------ |--------------------------------------------------------------------------------------| 
+| 13/04/2023    | 10.30-12.30  | - Semi-supervised classification using graph-based algorithms on gene expression data|
+| 19/04/2023    | 10.30-12.30  | - Disease subtype discovery on multi-omics data                                      |
+| 20/04/2023    | 10.30-13.30  | - Disease subtype discovery on multi-omics data (continue)                           |
+|               |              | - Description of the exam project                                                    |
+|               |              | - Start to work on project or presentation for exam                                  |
+
+
+**Place**: All lessons will be held in Aula Tau (I floor).
