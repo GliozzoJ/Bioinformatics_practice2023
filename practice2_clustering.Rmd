@@ -2,6 +2,8 @@
 title: "Practice 2 - Disease subtype discovery on multi-omics data"
 author: "Jessica Gliozzo"
 date: "19 March 2023"
+csl: ieee.csl
+bibliography: references.bib
 output:
   html_notebook:
     toc: yes
@@ -9,10 +11,6 @@ output:
     toc_float: yes
     theme: cerulean
     fig_caption: yes
-  pdf_document:
-    toc: yes
-csl: ieee.csl
-bibliography: references.bib
 ---
 
 In this lesson we will explore some approaches to perform the discovery of 
