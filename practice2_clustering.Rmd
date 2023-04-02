@@ -53,7 +53,6 @@ install.packages("SNFtool");
 install.packages("caret");
 install.packages("cluster");
 install.packages("mclustcomp");
-install.packages("sClust");
 ```
 
 Now we can load the packages:
@@ -121,7 +120,7 @@ The complete list of data types is available in the help page of the function
 # Note that RPPA stands for Reverse-phase protein array and it is 
 # the technology used to obtain proteomic data.
 # Use ?curatedTCGAData to access the help page of the function and see
-# the table with all the available data types (not all types are availble for
+# the table with all the available data types (not all types are available for
 # each cancer).
 assays <- c("miRNASeqGene", "RNASeq2Gene", "RPPAArray");
 mo <- curatedTCGAData(diseaseCode = "BRCA", 
@@ -134,7 +133,7 @@ mo <- mo[, , paste0("BRCA", "_", assays, "-20160128")];
 Now we can print a simple summary of the object returned:
 
 ```{r}
-# Print summary of expr
+# Print summary of mo:
 mo;
 ```
 
@@ -472,7 +471,11 @@ breast cancer molecular disease subtypes.
 ```{r}
 # Convert similarity matrix into a distance matrix:
 dist <- 1 - W_int;
-D <- as.dist(dist);
+D <- as.dist(dist); 
+#you can pass to pam a dist object (created using as.dist()
+#on the distance matrix) or directly the matrix. In this last 
+#case, set diss=TRUE in pam. See ?pam for further details.
+                
 
 # Apply clustering algorithms on integrated matrix:
 k <- length(unique(subtypes$Subtype_Selected));
