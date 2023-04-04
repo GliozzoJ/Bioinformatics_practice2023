@@ -29,3 +29,6 @@ message to my university e-mail.
 
 
 **Place**: All lessons will be held in Aula Tau (I floor).
+
+**Final Exam**: information about the project exam are available in the PDF file "exam_information.pdf" present in this 
+repository ([link here](https://github.com/GliozzoJ/Bioinformatics_practice2023/blob/main/exam_information.pdf)).
