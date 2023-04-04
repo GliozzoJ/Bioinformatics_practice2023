@@ -21,7 +21,7 @@ message to my university e-mail.
 
 | Date          | Time         | Topic                                                                                |
 | ------------- | ------------ |--------------------------------------------------------------------------------------| 
-| 13/04/2023    | 10.30-12.30  | - Semi-supervised classification using graph-based algorithms on gene expression data|
+| 13/04/2023    | 10.30-13.30  | - Semi-supervised classification using graph-based algorithms on gene expression data|
 | 19/04/2023    | 10.30-12.30  | - Disease subtype discovery on multi-omics data                                      |
 | 20/04/2023    | 10.30-13.30  | - Disease subtype discovery on multi-omics data (continue)                           |
 |               |              | - Description of the exam project                                                    |
