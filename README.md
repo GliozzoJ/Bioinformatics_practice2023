@@ -21,14 +21,22 @@ message to my university e-mail.
 
 | Date          | Time         | Topic                                                                                |
 | ------------- | ------------ |--------------------------------------------------------------------------------------| 
-| 13/04/2023    | 10.30-13.30  | - Semi-supervised classification using graph-based algorithms on gene expression data|
+| 13/04/2023    | 10.30-13.30  | - End of theory lesson about P-Net                                                   |
+|               |              | - Semi-supervised classification using graph-based algorithms on gene expression data|
 | 19/04/2023    | 10.30-12.30  | - Disease subtype discovery on multi-omics data                                      |
 | 20/04/2023    | 10.30-13.30  | - Disease subtype discovery on multi-omics data (continue)                           |
 |               |              | - Description of the exam project                                                    |
 |               |              | - Start to work on project or presentation for exam                                  |
 
 
-**Place**: All lessons will be held in Aula Tau (I floor).
+:school: **Place**: All lessons will be held in Aula Tau (I floor).
 
-**Final Exam**: information about the project exam are available in the PDF file "exam_information.pdf" present in this 
+:movie_camera: **Recording of lessons**: lessons will not be recorded, but the R notebooks of the [first](https://github.com/GliozzoJ/Bioinformatics_practice2023/blob/main/practice1_SSL.Rmd) and [second](https://github.com/GliozzoJ/Bioinformatics_practice2023/blob/main/practice2_clustering.Rmd) lessons contain both executable code and theory about the
+considered topics. If you need to skip a lesson, you can find all the material 
+in the notebooks and you can ask questions during the next lesson (if something is
+not clear :grimacing: ).
+
+:bar_chart: **Final Exam**: information about the project exam are available in the PDF file "exam_information.pdf" present in this 
 repository ([link here](https://github.com/GliozzoJ/Bioinformatics_practice2023/blob/main/exam_information.pdf)).
+
+:mailbox: **Contacts**: Students can contact me using my University e-mail (jessica.gliozzo@unimi.it).
