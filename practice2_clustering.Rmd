@@ -515,16 +515,17 @@ its cluster in another clustering:
 \begin{equation}
   MI(C_1, C_2) = \sum_{i=1}^{k} \sum_{j=1}^{l} P(i,j) log_{2} \frac{P(i,j)}{P(i)P(j)}
 \end{equation}
-where $P(i,j)= \frac{|C_{1i} \cap C_{2j}|}{n}$ is the probability that $i \in C_1$ 
-and $j \in C_2$.
+where $P(i,j)= \frac{|C_{1i} \cap C_{2j}|}{n}$ is the probability that an element belongs 
+to cluster $C_i \in C_1$ and cluster $C_j \in C_2$.
 Mutual information is not upper bounded, thus its interpretability is difficult.
 A normalized version of the mutual information is:
 \begin{equation}
   NMI(C_1, C_2) = \frac{MI(C_1, C_2)}{\sqrt{H(C_1) H(C_2)}}
 \end{equation}
+where $H(C_1)$ and $H(C_2)$ are the entropies associated to clusterings $C_1$ and $C_2$.
 NMI ranges between 0 and 1, where maximum NMI is reached if $C_1=C_2$.
 
-We can nor compute the considered measures to compare PAM clustering and 
+We can now compute the considered measures to compare PAM clustering and 
 molecular disease subtypes:
 ```{r}
 # Covert disease subtypes to numeric vector:
