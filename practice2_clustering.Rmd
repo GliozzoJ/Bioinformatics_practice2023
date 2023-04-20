@@ -459,7 +459,7 @@ For each pair of representative $i \in S$ and non-representative $h \in U$:
         2. $d(j, i) = D_{j}$. Then, $K_{jih} = min\{d(j,h), E_{j}\} - D_{j}$, 
         where $E_{j}$ is the dissimilarity between $j$ and the second closest object in $S$.
     * Compute the total results of the swap as $T_{ih} = \sum\{ K_{jih} | j \in U\}$.
-    * Select the pair $i, h$ that maximizes $T_{ih}$.
+    * Select the pair $i, h$ that minimizes $T_{ih}$.
     * If $T_{ih} < 0$ the swap is performed, $D_{j}$ and $E_{j}$ are recomputed 
     and we return at the first step of the SWAP phase. Otherwise, the algorithm stops 
     if all $T_{ih} > 0$.
