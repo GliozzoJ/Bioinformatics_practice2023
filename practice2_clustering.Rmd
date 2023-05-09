@@ -506,8 +506,7 @@ the Rand index does not assume a constant value (e.g. 0). Thus, the ARI is the
 RI corrected-for-chance, that assumes assumes a generalized hypergeometric distribution as
 null hypothesis. ARI is the (normalized) difference of the RI and its expected
 value under the null hypothesis. 
-ARI ranges from 0 to 1, where 1 indicates identical clusterings and zero independant 
-clusterings.
+ARI ranges from $-0.5$ to 1, where 1 indicates identical clusterings and near zero values independant clusterings.
 
 * *Normalized Mutual Information (NMI)*: the mutual information is a way to quantify
 how much we can reduce uncertainty about the cluster of an element when we already know
