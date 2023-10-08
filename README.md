@@ -1,10 +1,10 @@
-# Bioinformatics 2023 - Practice
+# Bioinformatics 2022/2023 - Practice
 
 <center>
 <img src="dna.jpg" width="700">
 </center>
 
-This repository contains the material for the practical part of the course Bioinformatics 2023 (Department of Computer Science, University of Milan).
+This repository contains the material for the practical part of the course Bioinformatics - academic year 2022/2023 (Department of Computer Science, University of Milan).
 All the lessons are prepared using R Notebooks, which are R markdown documents having blocks of code that can be executed.
 For more information about R Notebooks: [read this](https://bookdown.org/yihui/rmarkdown/notebook.html).
 
@@ -15,8 +15,7 @@ html notebook (.nb.html) can run code in Rstudio, however html notebooks can be 
 At the beginning of each notebook there is the code to install required packages from [CRAN](https://cran.r-project.org/) 
 and [Bioconductor](https://www.bioconductor.org/).
 
-If you have any problem with this code you can open a github issue or, in case of students of the course, you can drop me a 
-message to my university e-mail.
+If you have any problem with this code you can open a github issue or, in case of students of the course, you can drop me a message to my university e-mail.
 
 
 | Date          | Time         | Topic                                                                                |
